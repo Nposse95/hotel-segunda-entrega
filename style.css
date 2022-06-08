@@ -53,6 +53,48 @@ h1:hover {
     color: pink;
 }
 
+.sectiondiv {
+
+    animation: 8s seccion infinite;
+}
+
+@keyframes seccion {
+
+    0% {
+        background-color: rgb(24, 16, 20);
+    }
+
+    25% {
+        background-color: transparent;
+    }
+
+    50% {
+
+        background-color:  rgb(24, 16, 20);
+    }
+
+    75% {
+
+        background-color: transparent;
+    }
+
+    100% {
+
+        background-color:  rgb(24, 16, 20);
+    }
+}
+
+
+.imgn {
+
+    transition: all 2s;
+}
+
+.imgn:hover {
+
+    transform: scale(1.1);
+}
+
 .loremp {
 
     color: white;

@@ -14,7 +14,6 @@ h1 {
     color: pink;
     font-style: oblique;
     display: flex;
-    justify-content: center;
 }
 
 h1:hover {
@@ -33,27 +32,19 @@ h1:hover {
     }
    }
 
-header nav ul {
-
-    display: flex;
-    justify-content: space-around;
-    font-size: 2rem;
-}
-
-header nav ul li {
-
+   ul {
     list-style: none;
-    border-radius: 40px;
-    border: 5px solid pink;
-    padding: 1rem;
-    
 }
 
-header nav ul li a {
+.link1, .link2, .link3, .link4 {
 
+    font-size: 2rem;
     text-decoration: none;
-    font-family: 'Oswald', sans-serif;
+    border: 5px solid pink;
+    border-radius: 20px 10px 20px 10px;
+    padding: 10px;
 }
+
 
 .carouselpa {
 
@@ -180,18 +171,12 @@ header nav ul li a {
 .sectioncontacto {
 
     background-color: rgba(24, 16, 20, 0.677);
-    border: 10px solid transparent;
-  
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 400px;
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    padding-bottom: 2rem;
     
 }
 
 
-    section ul {
+section ul {
 
     color: white;
     display: flex;
@@ -200,21 +185,13 @@ header nav ul li a {
     
     }
 
-    section ul li {
+section ul li {
 
         font-family: 'Oswald', sans-serif;
         font-size: 1.5rem;
     }
 
-    .mapita {
+.mapita {
 
-        height: 100%;
-        width: 100%;
-        border-radius: 5px;
+        border-radius: 10px;
     }
-
-.section2 {
-
-    background-color: rgba(24, 16, 20, 0.677);
-    padding: 2rem;
-}

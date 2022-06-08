@@ -4,9 +4,9 @@ body {
 }
 
 header {
-
-    padding: 1.5rem;
+    
     background-color: rgba(24, 16, 20, 0.677);
+    padding: 2rem;
 
 }
 
@@ -170,8 +170,7 @@ h1:hover {
 
 .sectioncontacto {
 
-    background-color: rgba(24, 16, 20, 0.677);
-    padding-bottom: 2rem;
+    margin:20px;
     
 }
 
@@ -195,3 +194,18 @@ section ul li {
 
         border-radius: 10px;
     }
+
+/*EXPERIENCIA.HTML*/
+
+.mainexp {
+
+    padding: 5rem;
+}
+
+.exptexto {
+
+    color:white;
+    font-size: 2rem;
+    margin-bottom: 50px;
+    
+}
